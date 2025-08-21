@@ -42,7 +42,7 @@ This project demonstrates a comprehensive end-to-end data science solution for i
 | Source | Accuracy | AUC | Method |
 |--------|----------|-----|---------|
 | **UCI Repository** | ~84-85% | Not reported | Various algorithms |
-| **Your XGBoost Model** | **89.1%** | **92.6%** | Optimized ensemble |
+| **Our XGBoost Model** | **89.1%** | **92.6%** | Optimized ensemble |
 | **Improvement** | **+4-6%** | **N/A** | Advanced preprocessing + tuning |
 
 ### 🧠 AI-Enhanced Features

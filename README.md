@@ -247,11 +247,9 @@ This project demonstrates capabilities directly relevant to Progress's data-driv
 
 ## 📞 Contact Information
 
-**Javier Ariel Reinoso**  
-📧 Email: [your-email@example.com]  
-💼 LinkedIn: [your-linkedin-profile]  
-🐙 GitHub: [your-github-profile]
-
+**Asparuh Emilov**  
+📧 Email: [jariemilov@gmail.com]  
+💼 LinkedIn: [www.linkedin.com/in/asparuh-kirilov-emilov-112432165]  
 ---
 
 ## 🎯 Project Summary

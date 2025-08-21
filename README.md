@@ -5,7 +5,7 @@ This project demonstrates a comprehensive end-to-end data science solution for i
 ## 🏗️ Current Project Structure
 
 ```
-📁 Data-Scientist Test/
+📁 Income_Prediction_System/
 ├── 📊 01_process_and_clean_data/        # EDA & Data Cleaning
 │   └── eda_and_data_cleaning.ipynb     # Complete data analysis pipeline
 ├── 🤖 02_ml_development/               # Machine Learning Development
@@ -60,7 +60,7 @@ pip install uv
 ### 1️⃣ Environment Setup
 ```bash
 # Clone/extract the project
-cd "Data-Scientist Test"
+cd "Income_Prediction_System"
 
 # Create virtual environment and install dependencies
 uv sync

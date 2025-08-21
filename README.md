@@ -245,13 +245,6 @@ This project demonstrates capabilities directly relevant data-driven initiatives
 - **📱 User Experience:** Professional interface designed for business stakeholders
 - **🔧 Scalable Architecture:** Modular design supporting future enhancements
 
-## 📞 Contact Information
-
-**Asparuh Emilov**  
-📧 Email: [jariemilov@gmail.com]  
-💼 LinkedIn: [www.linkedin.com/in/asparuh-kirilov-emilov-112432165]  
----
-
 ## 🎯 Project Summary
 
 This income prediction system represents a **comprehensive demonstration of modern data science capabilities**, seamlessly integrating:

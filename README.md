@@ -266,7 +266,7 @@ The solution balances **technical sophistication** with **practical business val
 
 ### Quick Start
 ```bash
-cd "Data-Scientist Test"
+cd "Income_Prediction_System"
 pip install -r requirements.txt
 cd 03_income_prediction_agent
 streamlit run streamlit_app.py

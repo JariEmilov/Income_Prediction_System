@@ -1,10 +1,3 @@
-# 📊 Income Prediction System - AI-Enhanced ML Project
-
-**Candidate:** Asparuh Emilov
-**Position:** Data Scientist  
-**Company:** Progress Software Corporation  
-**Date:** January 2025
-
 ## 🎯 Project Overview
 
 This project demonstrates a comprehensive end-to-end data science solution for income prediction using the UCI Adult Census Income dataset. It combines advanced machine learning with AI agent technology to create an intelligent prediction system that achieves **92.6% AUC** performance while providing explanatory insights through RAG (Retrieval-Augmented Generation).

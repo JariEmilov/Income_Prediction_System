@@ -1,0 +1,19 @@
+predict_income_task:
+  description: >
+    Analyze the user demographic profile: {user_input}. 
+    
+    Use the income prediction tool to:
+    - Parse demographic information from natural language
+    - Find similar profiles using RAG technology
+    - Generate ensemble ML predictions with the production model
+    - Provide detailed analysis with probability percentage
+    
+    Handle informal language, written numbers, and missing information gracefully.
+  expected_output: >
+    A comprehensive income prediction report containing:
+    - Probability percentage of earning >$50K annually
+    - Clear prediction classification (>$50K or ≤$50K)
+    - Demographic profile breakdown as understood by AI
+    - Details of similar profiles found using RAG
+    - Ensemble model reasoning and methodology
+  agent: income_analyst

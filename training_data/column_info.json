@@ -1,0 +1,47 @@
+{
+  "numerical_columns": [
+    "age",
+    "education_num",
+    "capital_gain",
+    "capital_loss",
+    "hours_per_week"
+  ],
+  "categorical_columns": [
+    "workclass",
+    "education",
+    "marital_status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex",
+    "native_country",
+    "occupation_grouped",
+    "native_country_grouped",
+    "occupation_grouped",
+    "native_country_grouped",
+    "occupation_grouped",
+    "native_country_grouped"
+  ],
+  "target_col": "income",
+  "feature_columns": [
+    "age",
+    "education_num",
+    "capital_gain",
+    "capital_loss",
+    "hours_per_week",
+    "workclass",
+    "education",
+    "marital_status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex",
+    "native_country",
+    "occupation_grouped",
+    "native_country_grouped",
+    "occupation_grouped",
+    "native_country_grouped",
+    "occupation_grouped",
+    "native_country_grouped"
+  ]
+}

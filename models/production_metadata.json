@@ -1,0 +1,32 @@
+{
+  "model_type": "XGBoost Classifier - Production",
+  "training_approach": "Complete dataset training (100%)",
+  "hyperparameters": {
+    "subsample": 0.8,
+    "reg_lambda": 0.5,
+    "reg_alpha": 0.5,
+    "n_estimators": 200,
+    "min_child_weight": 1,
+    "max_depth": 4,
+    "learning_rate": 0.15,
+    "gamma": 0.5,
+    "colsample_bytree": 0.7
+  },
+  "training_data": {
+    "total_samples": 39240,
+    "num_features": 36,
+    "class_distribution": {
+      "0": 29265,
+      "1": 9975
+    }
+  },
+  "expected_performance": {
+    "estimated_auc": 0.9255713604873279,
+    "note": "Performance estimate from hyperparameter optimization phase"
+  },
+  "deployment_info": {
+    "ready_for_production": true,
+    "trained_on_complete_data": true,
+    "maximum_data_utilization": true
+  }
+}

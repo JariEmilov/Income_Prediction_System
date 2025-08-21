@@ -264,5 +264,3 @@ pip install -r requirements.txt
 cd 03_production_system
 streamlit run streamlit_app.py
 ```
-
-*Ready for immediate deployment and evaluation by Progress Software technical teams.*

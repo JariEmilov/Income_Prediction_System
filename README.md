@@ -10,7 +10,7 @@ This project demonstrates a comprehensive end-to-end data science solution for i
 │   └── eda_and_data_cleaning.ipynb     # Complete data analysis pipeline
 ├── 🤖 02_ml_development/               # Machine Learning Development
 │   └── ml_modelling.ipynb              # XGBoost optimization & training
-├── 🎯 03_income_prediction_agent/      # AI Agent System
+├── 🎯 03_production_system/           # AI Agent System
 │   ├── streamlit_app.py                # Web application interface
 │   └── src/income_prediction_agent/    # CrewAI multi-agent architecture
 ├── 🗃️ models/                         # Production Model Artifacts
@@ -84,7 +84,7 @@ jupyter notebook "02_ml_development/ml_modelling.ipynb"
 
 ### 3️⃣ Launch AI Prediction System
 ```bash
-cd 03_income_prediction_agent
+cd 03_production_system
 streamlit run streamlit_app.py
 ```
 
@@ -261,7 +261,7 @@ The solution balances **technical sophistication** with **practical business val
 ```bash
 cd "Income_Prediction_System"
 pip install -r requirements.txt
-cd 03_income_prediction_agent
+cd 03_production_system
 streamlit run streamlit_app.py
 ```
 

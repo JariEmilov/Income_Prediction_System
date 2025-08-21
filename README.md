@@ -225,7 +225,7 @@ For **efficient evaluation**, focus on these critical deliverables:
 
 ## 🏢 Software Alignment
 
-This project demonstrates capabilities directly relevant to Progress's data-driven initiatives:
+This project demonstrates capabilities directly relevant data-driven initiatives:
 
 ### Technical Excellence
 - **🔬 Statistical Rigor:** Hypothesis testing and evidence-based feature engineering

@@ -1,6 +1,6 @@
 # 📊 Income Prediction System - AI-Enhanced ML Project
 
-**Candidate:** Javier Ariel Reinoso  
+**Candidate:** Asparuh Emilov
 **Position:** Data Scientist  
 **Company:** Progress Software Corporation  
 **Date:** January 2025

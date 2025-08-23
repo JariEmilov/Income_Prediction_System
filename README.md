@@ -72,7 +72,9 @@ pip install uv
 ### 1️⃣ Environment Setup
 ```bash
 # Clone/extract the project
-cd "Income_Prediction_System"
+git clone --branch docker-support https://github.com/JariEmilov/Income_Prediction_System.git
+
+cd Income_Prediction_System/
 
 # Create virtual environment and install dependencies
 uv sync
@@ -102,7 +104,7 @@ streamlit run streamlit_app.py
 
 **⚠️ Important:** You'll need an OpenAI API key for the AI agent features. The app will prompt you to enter it in the sidebar.
 
-## 🚀 Run with Docker
+## 🚀 Run Streamlit with Docker
 
 1. **Build the Docker image:**
    ```bash

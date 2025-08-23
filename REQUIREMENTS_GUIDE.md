@@ -161,6 +161,14 @@ uv sync --frozen
 ```
 Use UV with frozen lock file for consistent CI/CD builds.
 
+### 6. **Docker-Based Deployment**
+```bash
+# Build and run the project in a container
+docker build -t income-prediction-system .
+docker run -p 8501:8501 income-prediction-system
+```
+Use for quick, reproducible setup on any machine with Docker installed.
+
 ## 📦 Project Structure Summary
 
 ```

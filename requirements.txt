@@ -206,7 +206,6 @@ pypdf==5.9.0
 pypdfium2==4.30.0
 pypika==0.48.9
 pyproject-hooks==1.2.0
-pyreadline3==3.5.4
 pyright==1.1.403
 pysbd==0.3.4
 python-dateutil==2.9.0.post0
@@ -215,8 +214,6 @@ python-json-logger==3.3.0
 pytube==15.0.0
 pytz==2025.2
 pyvis==0.3.2
-pywin32==311
-pywinpty==3.0.0
 pyyaml==6.0.2
 pyzmq==27.0.1
 qdrant-client==1.15.1

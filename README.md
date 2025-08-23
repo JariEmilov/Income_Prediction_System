@@ -1,10 +1,3 @@
-# 📊 Income Prediction System - AI-Enhanced ML Project
-
-**Candidate:** Javier Ariel Reinoso  
-**Position:** Data Scientist  
-**Company:** Progress Software Corporation  
-**Date:** January 2025
-
 ## 🎯 Project Overview
 
 This project demonstrates a comprehensive end-to-end data science solution for income prediction using the UCI Adult Census Income dataset. It combines advanced machine learning with AI agent technology to create an intelligent prediction system that achieves **92.6% AUC** performance while providing explanatory insights through RAG (Retrieval-Augmented Generation).
@@ -12,12 +5,12 @@ This project demonstrates a comprehensive end-to-end data science solution for i
 ## 🏗️ Current Project Structure
 
 ```
-📁 Data-Scientist Test/
+📁 Income_Prediction_System/
 ├── 📊 01_process_and_clean_data/        # EDA & Data Cleaning
 │   └── eda_and_data_cleaning.ipynb     # Complete data analysis pipeline
 ├── 🤖 02_ml_development/               # Machine Learning Development
 │   └── ml_modelling.ipynb              # XGBoost optimization & training
-├── 🎯 03_income_prediction_agent/      # AI Agent System
+├── 🎯 03_production_system/           # AI Agent System
 │   ├── streamlit_app.py                # Web application interface
 │   └── src/income_prediction_agent/    # CrewAI multi-agent architecture
 ├── 🗃️ models/                         # Production Model Artifacts
@@ -33,12 +26,24 @@ This project demonstrates a comprehensive end-to-end data science solution for i
 
 ## 🎪 Key Achievements
 
-### 📈 Model Performance (Production-Ready)
-- **🏆 AUC Score:** 92.6% (Cross-validation optimized)
-- **🎯 Accuracy:** 86.4% on validation set
-- **⚖️ F1-Score:** 0.708 for income >$50K prediction
-- **📊 Training Dataset:** 39,240 samples (post-cleaning)
-- **🔧 Features:** 36 engineered features with statistical validation
+#### **Primary Metrics**
+| Metric | Training | Test | Validation | Production |
+|--------|----------|------|------------|------------|
+| **Accuracy** | 89.5% | 88.6% | **89.1%** | 89.1% |
+| **F1-Score** | 75.8% | 73.7% | **74.4%** | 74.4% |
+| **AUC Score** | 93.6% | 92.4% | **92.6%** | 92.6% |
+
+**✅ Achievement**: 
+- **89.1% Classification Accuracy** exceeds UCI benchmark (~84-85%)
+- **92.6% AUC Score** demonstrates excellent class separation
+- **Improvement**: +4-5% accuracy over published UCI baselines
+
+#### **Benchmark Comparison**
+| Source | Accuracy | AUC | Method |
+|--------|----------|-----|---------|
+| **UCI Repository** | ~84-85% | Not reported | Various algorithms |
+| **Our XGBoost Model** | **89.1%** | **92.6%** | Optimized ensemble |
+| **Improvement** | **+4-6%** | **N/A** | Advanced preprocessing + tuning |
 
 ### 🧠 AI-Enhanced Features
 - **🤖 RAG System:** Retrieval-Augmented Generation with similarity search
@@ -67,7 +72,7 @@ pip install uv
 ### 1️⃣ Environment Setup
 ```bash
 # Clone/extract the project
-cd "Data-Scientist Test"
+cd "Income_Prediction_System"
 
 # Create virtual environment and install dependencies
 uv sync
@@ -91,11 +96,30 @@ jupyter notebook "02_ml_development/ml_modelling.ipynb"
 
 ### 3️⃣ Launch AI Prediction System
 ```bash
-cd 03_income_prediction_agent
+cd 03_production_system
 streamlit run streamlit_app.py
 ```
 
 **⚠️ Important:** You'll need an OpenAI API key for the AI agent features. The app will prompt you to enter it in the sidebar.
+
+## 🚀 Run with Docker
+
+1. **Build the Docker image:**
+   ```bash
+   docker build -t income-prediction-system .
+   ```
+
+2. **Run the container:**
+   ```bash
+   docker run -p 8501:8501 income-prediction-system
+   ```
+
+3. **Access the app:**
+   - Open [http://localhost:8501](http://localhost:8501) in your browser.
+
+**Note:**
+- You’ll need to provide your OpenAI API key in the Streamlit sidebar.
+- For Jupyter notebooks, run them interactively outside Docker or extend the Dockerfile to support notebook execution.
 
 ## 📋 Project Components Overview
 
@@ -156,18 +180,8 @@ streamlit run streamlit_app.py
 - **📱 Responsive Design:** Modern UI with native Streamlit components
 - **🔧 API Integration:** Seamless OpenAI API integration with user key management
 
-## 📊 Model Performance & Results
-
-### Production Model Metrics
-| Dataset | Accuracy | F1-Score | AUC | Precision | Recall |
-|---------|----------|----------|-----|-----------|--------|
-| **Training** | 87.3% | 0.730 | **93.7%** | 0.745 | 0.716 |
-| **Test** | 86.4% | 0.709 | **92.3%** | 0.672 | 0.748 |
-| **Validation** | 86.4% | 0.708 | **92.6%** | 0.778 | 0.649 |
-
 ### Key Performance Insights
 - **🎯 Consistent Performance:** Minimal overfitting with <1% variance across splits
-- **🏆 Industry-Leading AUC:** 92.6% exceeds typical census income prediction benchmarks
 - **⚖️ Balanced Precision-Recall:** Optimized for both accuracy and practical utility
 - **📈 Production Optimization:** Final model trained on complete 39,240-sample dataset
 
@@ -230,9 +244,9 @@ For **efficient evaluation**, focus on these critical deliverables:
 ### 5. **📈 Processed Data**
 - `training_data/training_data.csv` - Clean dataset (39,240 samples)
 
-## 🏢 Progress Software Alignment
+## 🏢 Software Alignment
 
-This project demonstrates capabilities directly relevant to Progress's data-driven initiatives:
+This project demonstrates capabilities directly relevant data-driven initiatives:
 
 ### Technical Excellence
 - **🔬 Statistical Rigor:** Hypothesis testing and evidence-based feature engineering
@@ -252,15 +266,6 @@ This project demonstrates capabilities directly relevant to Progress's data-driv
 - **📱 User Experience:** Professional interface designed for business stakeholders
 - **🔧 Scalable Architecture:** Modular design supporting future enhancements
 
-## 📞 Contact Information
-
-**Javier Ariel Reinoso**  
-📧 Email: [your-email@example.com]  
-💼 LinkedIn: [your-linkedin-profile]  
-🐙 GitHub: [your-github-profile]
-
----
-
 ## 🎯 Project Summary
 
 This income prediction system represents a **comprehensive demonstration of modern data science capabilities**, seamlessly integrating:
@@ -275,10 +280,8 @@ The solution balances **technical sophistication** with **practical business val
 
 ### Quick Start
 ```bash
-cd "Data-Scientist Test"
+cd "Income_Prediction_System"
 pip install -r requirements.txt
-cd 03_income_prediction_agent
+cd 03_production_system
 streamlit run streamlit_app.py
 ```
-
-*Ready for immediate deployment and evaluation by Progress Software technical teams.*

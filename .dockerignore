@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints
+.env
+.vscode/
+.idea/
+*.log
+node_modules/
+models/*.pkl.backup
+models/*.csv.backup
+tmp/
+temp/

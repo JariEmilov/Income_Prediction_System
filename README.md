@@ -29,21 +29,21 @@ This project demonstrates a comprehensive end-to-end data science solution for i
 #### **Primary Metrics**
 | Metric | Training | Test | Validation | Production |
 |--------|----------|------|------------|------------|
-| **Accuracy** | 89.5% | 88.6% | **89.1%** | 89.1% |
-| **F1-Score** | 75.8% | 73.7% | **74.4%** | 74.4% |
-| **AUC Score** | 93.6% | 92.4% | **92.6%** | 92.6% |
+| **Accuracy** | 87.1% | 86.5% | **86.4%** | 86.4% |
+| **F1-Score** | 72.5% | 71.1% | **70.8%** | 70.8% |
+| **AUC Score** | 93.4% | 92.4% | **92.6%** | 92.6% |
 
 **✅ Achievement**: 
-- **89.1% Classification Accuracy** exceeds UCI benchmark (~84-85%)
+- **86.4% Classification Accuracy** exceeds UCI benchmark (~84-85%)
 - **92.6% AUC Score** demonstrates excellent class separation
-- **Improvement**: +4-5% accuracy over published UCI baselines
+- **Improvement**: +1-2% accuracy over published UCI baselines
 
 #### **Benchmark Comparison**
 | Source | Accuracy | AUC | Method |
 |--------|----------|-----|---------|
 | **UCI Repository** | ~84-85% | Not reported | Various algorithms |
-| **Our XGBoost Model** | **89.1%** | **92.6%** | Optimized ensemble |
-| **Improvement** | **+4-6%** | **N/A** | Advanced preprocessing + tuning |
+| **Our XGBoost Model** | **86.4%** | **92.6%** | Optimized ensemble |
+| **Improvement** | **+1-2%** | **N/A** | Advanced preprocessing + tuning |
 
 ### 🧠 AI-Enhanced Features
 - **🤖 RAG System:** Retrieval-Augmented Generation with similarity search

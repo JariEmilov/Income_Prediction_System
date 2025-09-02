@@ -31,7 +31,7 @@ This project demonstrates a comprehensive end-to-end data science solution for i
 |--------|----------|------|------------|------------|
 | **Accuracy** | 87.1% | 86.5% | **86.4%** | 86.4% |
 | **F1-Score** | 72.5% | 71.1% | **70.8%** | 70.8% |
-| **AUC Score** | 93.4% | 92.4% | **92.6%** | 92.6% |
+| **AUC Score** | 90.6% | 89.0% | **89.7%** | 89.7% |
 
 **✅ Achievement**: 
 - **86.4% Classification Accuracy** exceeds UCI benchmark (~84-85%)

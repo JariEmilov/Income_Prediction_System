@@ -42,7 +42,7 @@ This project demonstrates a comprehensive end-to-end data science solution for i
 | Source | Accuracy | AUC | Method |
 |--------|----------|-----|---------|
 | **UCI Repository** | ~84-85% | Not reported | Various algorithms |
-| **Our XGBoost Model** | **86.4%** | **92.6%** | Optimized ensemble |
+| **Our XGBoost Model** | **86.4%** | **89.7%** | Optimized ensemble |
 | **Improvement** | **+1-2%** | **N/A** | Advanced preprocessing + tuning |
 
 ### 🧠 AI-Enhanced Features
@@ -251,7 +251,7 @@ This project demonstrates capabilities directly relevant data-driven initiatives
 
 This income prediction system represents a **comprehensive demonstration of modern data science capabilities**, seamlessly integrating:
 
-- **🏆 High-Performance ML:** 92.6% AUC XGBoost model with rigorous validation
+- **🏆 High-Performance ML:** 89.7% AUC XGBoost model with rigorous validation
 - **🤖 AI Agent Innovation:** RAG-powered explanatory system using CrewAI
 - **📱 Production Interface:** Professional Streamlit web application
 - **📊 Statistical Foundation:** Evidence-based feature engineering and model selection
